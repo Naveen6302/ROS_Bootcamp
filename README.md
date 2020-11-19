@@ -6,7 +6,7 @@ Introduction to ROS
 
 Robot Operating System(ROS) is robotics middle-ware. Although ROS is not an operating system, it provides services designed for a heterogeneous computer cluster such as hardware abstraction, low-level device control, implementation of commonly used functionality, message-passing between processes, and package management. Running sets of ROS-based processes are represented in a graph architecture where processing takes place in nodes that may receive, post and multiplex sensor data, control, state, planning, actuator, and other messages.
 
-#### **MERITS\**
+#### 
 
 ##### 1. ROS is general
 
@@ -20,7 +20,7 @@ we can easily communicate between a Python node and a C++ node. It means a lot o
 
 ROS can work with multiple ROS masters. It means that you can have many independent robots, each with its own ROS system, and all robots can communicate between each other.
 
-### **Limitations\**
+### Limitations\***
 
 1. ROS does not support multiple robots with the same master node.
 

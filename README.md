@@ -30,6 +30,15 @@ ROS can work with multiple ROS masters. It means that you can have many independ
 5. Monitoring, logging, analytics and maintenance tasks for multiple robots are difficult in commercial settings.
 6. Multi-robot/fleet management and interaction is not possible.
 
+# Publisher and Subscriber
+
+The primary mechanism for ROS nodes to exchange data is sending and receiving *messages*. Messages are transmitted on a *topic,* and each topic has a unique name in the ROS network. If a node wants to share information, it uses a *publisher* to send data to a topic. A node that wants to receive that information uses a *subscriber* to that same topic. Besides its unique name, each topic also has a *message type*, which determines the types of messages that are capable of being transmitted under that topic.
+
+This publisher and subscriber communication has the following characteristics:
+
+- Topics are used for many-to-many communication. Many publishers can send messages to the same topic and many subscribers can receive them.
+- Publishers and subscribers are decoupled through topics and can be created and destroyed in any order. A message can be published to a topic even if there are no active subscribers.
+
 ### **Basic ROS terminology**
 
 1. **WORKSPACE:** A workspace is a folder where you modify, build, and install  packages. 

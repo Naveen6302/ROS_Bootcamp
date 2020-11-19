@@ -29,3 +29,5 @@ ROS can work with multiple ROS masters. It means that you can have many independ
 4. Package management on deployed robots is limited.
 5. Monitoring, logging, analytics and maintenance tasks for multiple robots are difficult in commercial settings.
 6. Multi-robot/fleet management and interaction is not possible.
+
+

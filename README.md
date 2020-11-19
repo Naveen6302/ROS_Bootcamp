@@ -30,7 +30,7 @@ ROS can work with multiple ROS masters. It means that you can have many independ
 5. Monitoring, logging, analytics and maintenance tasks for multiple robots are difficult in commercial settings.
 6. Multi-robot/fleet management and interaction is not possible.
 
-2. ### **Basic ROS terminology**
+### **Basic ROS terminology**
 
 1. **WORKSPACE:** A workspace is a folder where you modify, build, and install  packages. 
 2. **ROS package:** It is the main organizational software which contains ROS nodes,ROS-independent library,dataset,configuration files etc.
